@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>gcartier94.github.io</title>
+   
+   <link></link>
+   <description>meditations on complexity, one sip at a time</description>
+   <language>en-us</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Welcome</title>
+	  <link>//welcome</link>
+	  <author></author>
+	  <pubDate>2025-07-25T17:44:00+00:00</pubDate>
+	  <guid>//welcome</guid>
+	  <description><![CDATA[
+	     <p>Hello there,</p>
+
+<p>Welcome to my very small, but comfortable, corner of the web.</p>
+
+<p>I’m someone who finds joy in the intersection of technology and thought. This is the space where I pause to reflect, explore, and occasionally ramble about the things that keep me up at night (and the caffeine that helps me enjoy it).</p>
+
+<p>Expect musings on systems architecture and the occasional philosophical detour. Whether you’re here for insights, inspiration, or just a good read with your morning brew—I’m glad you stopped by.</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
