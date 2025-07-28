@@ -11,10 +11,8 @@ name: 'Caffeine Meditations'
 description: "meditations on complexity, one sip at a time"
 
 short_url: 'gcartier94.github.io'
-google_analytics: # Add your GA tracking ID if you have one
-disqus: # Add your Disqus username if you want comments
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: "/"
 
 # Permalinks
 permalink: /:title
@@ -43,14 +41,14 @@ plugins: [jekyll-paginate]
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-safe: false
-lsi: false
-username: gcartier94
-repo: gcartier94.github.io
-branch: master
-destination: _site/
-production_url:  https://gcartier94.github.io/
-source_url:  https://github.com/gcartier94/gcartier94.github.io/
+#safe: false
+#lsi: false
+#username: gcartier94
+#repo: gcartier94.github.io
+#branch: master
+#destination: _site/
+#production_url:  https://gcartier94.github.io/
+#source_url:  https://github.com/gcartier94/gcartier94.github.io/
 
 exclude:
   - README.md
