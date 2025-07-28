@@ -48,7 +48,7 @@ lsi: false
 username: gcartier94
 repo: gcartier94.github.io
 branch: master
-destination: ../caffeine-meditations/_site
+destination: _site/
 production_url:  https://gcartier94.github.io/
 source_url:  https://github.com/gcartier94/gcartier94.github.io/
 
