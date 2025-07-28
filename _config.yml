@@ -4,17 +4,17 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 5
-language: 'en-uk'
+language: 'en-us'
 
 # Website info
-name: 'Finding The Way Home'
-description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+name: 'Caffeine Meditations'
+description: "meditations on complexity, one sip at a time"
 
-short_url: 'jekyllt.github.io/jasper/'
-google_analytics: UA-69281367-1
-disqus: username
+short_url: 'gcartier94.github.io'
+google_analytics: # Add your GA tracking ID if you have one
+disqus: # Add your Disqus username if you want comments
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /jasper/
+baseurl: /
 
 # Permalinks
 permalink: /:title
@@ -45,13 +45,12 @@ plugins: [jekyll-paginate]
 # or "master" otherwise
 safe: false
 lsi: false
-username: jekyllt
-repo: jasper
+username: gcartier94
+repo: gcartier94.github.io
 branch: master
-relative_source: ../jasper/
-destination: ../jasper-pages/
-production_url:  https://jekyllt.github.io/jasper/
-source_url:  https://github.com/jekyllt/jasper/
+destination: ../caffeine-meditations/_site
+production_url:  https://gcartier94.github.io/
+source_url:  https://github.com/gcartier94/gcartier94.github.io/
 
 exclude:
   - README.md

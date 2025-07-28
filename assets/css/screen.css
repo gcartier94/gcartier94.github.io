@@ -29,9 +29,10 @@
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%;
 }
-body { margin: 0; }
+body { margin: 0; 
+}
 article, aside, details,
 figcaption, figure,
 footer, header,
@@ -558,7 +559,7 @@ button {
     position: relative;
     z-index: 10;
     min-height: 100%;
-    background: #fff;
+    background: #FDFDFD;
     -webkit-transition: -webkit-transform 0.5s ease;
             transition: transform 0.5s ease;
 }
@@ -949,7 +950,8 @@ body.nav-opened .nav {
     font-size: 5rem;
     letter-spacing: -1px;
     font-weight: 700;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Cutive", serif;
+    font-style: normal;
     color: #fff;
 }
 
@@ -958,7 +960,9 @@ body.nav-opened .nav {
     font-size: 2rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Merriweather", serif;
+    font-family: "Cutive", serif;
+    font-style: normal;
+//    font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
 }
