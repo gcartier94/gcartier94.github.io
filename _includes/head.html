@@ -1,31 +1,37 @@
-    <link rel="canonical" href="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
-    <meta name="referrer" content="origin" />
-    <link rel="next" href="{{ site.baseurl }}page2/" />
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="color-scheme" content="dark light">
+  <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
+  <title>{{ page.title }}</title>
+  {%- seo title=false -%}
 
-    <meta property="og:site_name" content="{{ site.name }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
-    <meta property="og:image" content="{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}assets/images/cover1.jpg{% endif %}" />
+  {% if page.robots %}
+  <meta name="robots" content="{{page.robots}}" />
+  {% endif %}
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta name="twitter:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
-    <meta name="twitter:image:src" content="{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}assets/images/cover1.jpg{% endif %}" />
+  {%- unless site.disable_google_fonts -%}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet">
+  {%- endunless -%}
 
-    <script type="application/ld+json">
-{
-    "@context": "http://schema.org",
-    "@type": "Website",
-    "publisher": "{{ site.name }}",
-    "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}",
-    "url": "{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}",
-    "image": "{{ site.baseurl }}{% if page.cover %}{{ page.cover }}{% else %}assets/images/cover1.jpg{% endif %}",
-    "description": "{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
-}
-    </script>
+  {%- if site.listen_for_clients_preferred_style -%}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
+  {%- else -%}
+  {%- if site.style == 'nord' -%}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main-nord.css" | relative_url }}">
+  {%- elsif site.style == 'light' -%}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
+  {%- elsif site.style == 'hacker' -%}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main-hacker.css" | relative_url }}">
+  {%- else -%}
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
+  {%- endif -%}
+  {%- endif -%}
 
-    <meta name="generator" content="Jekyll 3.0.0" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}feed.xml" />
+  {%- if jekyll.environment == 'production' and site.tracking -%}
+  {%- include tracker.html -%}
+  {%- endif -%}
+</head>

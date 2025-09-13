@@ -8,3 +8,5 @@ gem "nokogiri"
 gem "addressable"
 gem "csv"
 gem "bigdecimal"
+gem "jekyll-theme-console"
+
