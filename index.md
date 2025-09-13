@@ -4,7 +4,7 @@ layout: home
 permalink: /
 ---
 
-# Caffeine Meditations
+# > caffeine meditations
 
 <div class="index-logo-div">
 <img src="assets/images/logo.png" class="index-logo" alt="Caffeine Meditations Logo">

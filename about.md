@@ -6,9 +6,9 @@ logo: 'assets/images/coffee-cup.svg'
 current: about
 ---
 
-Welcome to Coffee Meditations 
+# > about 
 
-My name is Guilherme Cartier and this is my personal blog. 
+Caffeine Meditations is a personal blog by Guilherme Cartier (gcartier) 
 
 Reach me out at:
 
