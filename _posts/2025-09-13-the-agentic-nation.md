@@ -4,14 +4,31 @@ title:  "/the_agentic_nation"
 date:   2025-09-13 15:49:13 +0100
 categories: 
     - technology
-    - systems
+    - generativeai
     - agenticai
 ---
 
 # > the agentic nation
 
-[2025-09-13 15:49:13] by gcatier 
+[2025-09-13 15:49:13] 
+
+[early draft]
+
+The world has changed again, like it did many times before and like it will many times after, but this time it might be different. This time we might have reached an inflection point ...
+
+There is a "Olympus" of a select group of technologies that were able to fundamentally shift our way of life through out the history. The steam engine, radio, TV, the internet, this last one opening the door to many other breakthroughs like social media, smartphones. 
+
+It might be too soon to say how historians will remember the times we are living today, but the truth is that Generative AI is part of everyone's lives some way or the other. For the good or the bad, we need to learn to live in a world where GenAI is everywhere.
+
+LLMs have opened the door to another breakthrough, AI Agents. The concept is not new, if you've read the book [kill it with fire](#) by ... you know that innovation is a flat circle and we might have reached the point where AI agents are finally viable.
+
+With this in mind, I started to think about the possibilities, how the agentic systems will dictate how other systems are built. Most systems we use today take UI and UX very seriously, but what if the main users of these systems are no longer human? Should we start to think about our systems from the perspective of an agent? 
+
+UI and UX are like the infrastructure of our cities, it's the streets and highways, it's the traffict lights and signs along our way. But imagine a place that is so fundamentally different that none of these things are necessary, a city of agents. 
+
+Perhaps many systems will ship with an embedded [MCP] server included, providing clear APIs and boundaries for external agents. 
+
+What if in the future our experience with web browsers is completely different. No longer you will have to type the page address, you will chat with an agent and say what you want to do, the agent will take care of the rest for you. 
 
 
-The world has changed again, like it did many times before and like it will many times after, but this time it might be different.
-
+- gcartier
