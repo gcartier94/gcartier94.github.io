@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "/boring_bots"
-date:   2025-02-11 17:07:00 +0100
+date:   2025-10-16 10:20:00 +0100
 categories: 
     - technology
     - generativeai
@@ -9,7 +9,7 @@ categories:
 ---
 
 # > boring bots
-[2025-02-11 17:07:00]
+[2025-10-16 11:20:00]
 
 When you hear "AI Agent," what comes to mind? Do you think of Hugo Weaving's "Agent Smith" from *The Matrix*? Perhaps you think about the robots from an Asimov novel, or even something straight out of *Terminator*?
 
