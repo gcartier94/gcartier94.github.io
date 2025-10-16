@@ -15,5 +15,8 @@ Reach me out at:
 - [LinkedIn](https://www.linkedin.com/in/gcartier/)
 - [Email](mailto:gcartier@caffeinemeditations.com)
 
+<br>
+<br>
+
 --- 
 *Disclaimer: The views and opinions expressed on this blog are solely my own and do not necessarily reflect the official policy, position, or opinions of my employer or any organizations I may be affiliated with.*
