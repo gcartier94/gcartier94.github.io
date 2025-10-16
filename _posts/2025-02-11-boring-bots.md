@@ -57,5 +57,5 @@ So yes, all my agents will be boring and predictable; "No spontaneity for you, t
 
 Nevertheless, it is safe to say that this is yet another chapter in the revolution that generative AI is bringing to our society. Agentic AI is here to stay; the technology has the potential to bring tremendous benefits, but we need to guarantee its proper implementation, especially in mission-critical systems like the mainframe.
 
-[gcartier](/about)
+- [gcartier](/about)
 
