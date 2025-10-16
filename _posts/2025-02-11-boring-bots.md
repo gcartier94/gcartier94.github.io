@@ -55,7 +55,9 @@ While consistency in life might not be the best thing all the time, this is the 
 
 So yes, all my agents will be boring and predictable; "No spontaneity for you, that is something reserved for humans only, thank you."
 
-Nevertheless, it is safe to say that this is yet another chapter in the revolution that generative AI is bringing to our society. Agentic AI is here to stay; the technology has the potential to bring tremendous benefits, but we need to guarantee its proper implementation, especially in mission-critical systems like the mainframe.
+Nevertheless, it is safe to say that this is yet another chapter in the revolution that generative AI is bringing to our society. Agentic AI is here to stay, and its potential is undeniable, but in the world of mainframes, potential means nothing without precision. The systems that run our most critical workloads demand excellence, consistency, and trust.
+
+In the end, the most revolutionary thing we can build might just be something perfectly, beautifully boring.
 
 - [gcartier](/about)
 
