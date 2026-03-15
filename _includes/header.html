@@ -3,14 +3,23 @@
 <header>
   <div class="menu">
     <ul>
-      {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title -%}
-        <li>
-          <a href="{{ my_page.url | relative_url }}"{% if page.url == my_page.url %} aria-current="page"{% endif %}>{{ my_page.title | escape }}</a>
-        </li>
+      {%- if page.lang == "pt-br" -%}
+        <!-- Portuguese navigation -->
+        <li><a href="/pt-br/">Caffeine Meditations</a></li>
+        <li><a href="/pt-br/sobre">sobre</a></li>
+      {%- else -%}
+        <!-- English navigation -->
+        <li><a href="/">Caffeine Meditations</a></li>
+        <li><a href="/about">about</a></li>
+      {%- endif -%}
+      <!-- Language toggle -->
+      <li class="lang-toggle">
+        {%- if page.lang == "pt-br" -%}
+          <a href="/" title="English">en</a> | <strong>pt</strong>
+        {%- else -%}
+          <strong>en</strong> | <a href="/pt-br/" title="Português">pt</a>
         {%- endif -%}
-      {%- endfor -%}
+      </li>
     </ul>
   </div>
 </header>

@@ -1,34 +1,60 @@
 /**
- * Dark theme variables
+ * Dark theme - Warm Editorial Dark
+ * Deep warm gray, not stark black - like reading by lamplight
  */
 
 @mixin theme() {
   :root {
-    --base-color: #DBDBDB;
-    --border: dashed 1px rgba(219, 219, 219, 0.9);
-    --selection-background: rgba(219, 219, 219, 0.99);
-    --selection-text: #000;
-    --background-color: #000;
-    --text-color: var(--base-color);
-    --placeholder-color: var(--base-color);
-    --link-color: var(--base-color);
-    --code-color-1: #aaaaaa;
-    --code-color-2: #ffffcc;
-    --code-color-3: #F00000;
-    --code-color-4: #F0A0A0;
-    --code-color-5: #b38aff;
-    --code-color-6: #5ba711;
-    --code-color-7: #e4e477;
-    --code-color-8: #000080;
-    --code-color-9: #05ca05;
-    --code-color-10: #888888;
-    --code-color-11: #555555;
-    --code-color-12: #800080;
-    --code-color-13: #00d4d4;
-    --code-color-14: #00c1c1;
-    --code-color-15: #ed9d13;
-    --code-color-16: #1e90ff;
-    --code-color-17: #800000;
-    --code-color-18: #bbbbbb;
+    /* Core colors - warm dark */
+    --background-color: #1C1B1A;
+    --text-color: #E8E4DE;
+    --base-color: #E8E4DE;
+    
+    /* Accent colors */
+    --accent-color: #7BA3D4;
+    --accent-warm: #C4A882;
+    --accent-muted: #9CA3AF;
+    
+    /* Links */
+    --link-color: #7BA3D4;
+    --link-hover-color: #A5C4E8;
+    
+    /* Borders - subtle */
+    --border: solid 1px rgba(232, 228, 222, 0.12);
+    --border-strong: solid 1px rgba(232, 228, 222, 0.25);
+    
+    /* Selection */
+    --selection-background: rgba(123, 163, 212, 0.3);
+    --selection-text: #E8E4DE;
+    
+    /* UI elements */
+    --placeholder-color: #6B7280;
+    --meta-color: #9CA3AF;
+    --caption-color: #9CA3AF;
+    
+    /* Code syntax - warm, visible in dark */
+    --code-background: #252423;
+    --code-color-1: #9CA3AF;
+    --code-color-2: #3D3B38;
+    --code-color-3: #F87171;
+    --code-color-4: #3D2929;
+    --code-color-5: #A5B4FC;
+    --code-color-6: #34D399;
+    --code-color-7: #FBBF24;
+    --code-color-8: #60A5FA;
+    --code-color-9: #10B981;
+    --code-color-10: #9CA3AF;
+    --code-color-11: #6B7280;
+    --code-color-12: #C4B5FD;
+    --code-color-13: #22D3EE;
+    --code-color-14: #2DD4BF;
+    --code-color-15: #FBBF24;
+    --code-color-16: #60A5FA;
+    --code-color-17: #F87171;
+    --code-color-18: #6B7280;
+    
+    /* Illustration styling */
+    --illustration-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    --illustration-border: 1px solid rgba(232, 228, 222, 0.08);
   }
 }

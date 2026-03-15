@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "/boring_bots"
-date:   2025-10-16 10:20:00 +0100
+title: "Boring Bots"
+subtitle: "Why predictability is the highest virtue in AI agents"
+date: 2025-10-16 10:20:00 +0100
+lang: en
 categories: 
     - technology
     - generativeai
     - agenticai
 ---
-
-# > boring bots
-[2025-10-16 11:20:00]
 
 When you hear "AI Agent," what comes to mind? Do you think of Hugo Weaving's "Agent Smith" from *The Matrix*? Perhaps you think about the robots from an Asimov novel, or even something straight out of *Terminator*?
 
@@ -29,7 +28,10 @@ Agentic AI refers to systems that go beyond static automation, enabling AI model
 Understanding the different implementations is critical. Although both methods are agentic, workflows are meant for scenarios where predictability and consistency are important (ideal for repeatable tasks), while agents excel in complex, variable environments where flexibility and contextual awareness are paramount. For example, we could set up a workflow to automate a content creation pipeline, defining a series of sequential tasks such as automated review of text, image processing, and posting on social media. On the other hand, we could set up an AI agent to act as a customer service assistant, capable of dynamically choosing the next action based on its interaction with the user, such as retrieving information about shipping or even escalating the issue to a human if necessary.
 The diagram below illustrates both cases:
 
-![diagram](/assets/images/workflow-agents.png)
+<figure>
+  <img src="/assets/images/workflow-agents.png" alt="illustration of agentic workflows vs AI agents" class="illustration">
+  <figcaption>Agentic Workflows follow predefined paths; AI Agents adapt dynamically</figcaption>
+</figure>
 
 ## Innovation is a flat circle
 As you might have guessed, these concepts are not new at all. Chatbots have been around for many years, and the idea of autonomous systems that take action based on environmental context is much older. From the many reasons (technical and non-technical) for a technology to take off, one of them is the solution design. As previously mentioned, the "brain" for these systems is AI models such as LLMs (Large Language Models). If you'd like to learn more about LLMs and how everything works under the hood, there is an excellent [series of videos by 3blue1brown on the topic](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=kg96sroS_QnDymNc). Although far from perfect, the recent advancements in the generative AI field are part of what is enabling this agentic AI revolution.

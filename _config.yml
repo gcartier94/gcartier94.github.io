@@ -6,10 +6,25 @@
 #paginate: 5
 
 language: 'en-us'
+url: "https://gcartier94.github.io"
 
 # Website info
 name: 'Caffeine Meditations'
+title: 'Caffeine Meditations'
 description: "meditations on complexity, one sip at a time"
+author: "Guilherme Cartier"
+
+# Social / SEO
+social:
+  name: Guilherme Cartier
+  links:
+    - https://www.linkedin.com/in/gcartier/
+    - https://github.com/gcartier94
+
+# RSS Feed
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 short_url: 'gcartier94.github.io'
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -58,7 +73,7 @@ header_pages:
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 # Theme options
-style: light # dark (default) or light or hacker
+style: light # light (default) or dark
 # listen_for_clients_preferred_style: true # true or false (default)
 
 # Fonts

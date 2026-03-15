@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{%- assign pt_posts = site.posts | where: "lang", "pt-br" -%}
+{%- if pt_posts.size > 0 -%}
+  <ul class="post-list">
+    {%- for post in pt_posts -%}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      <p class="post-date">{{ post.date | date: "%-d de %B, %Y" }}</p>
+    </li>
+    {%- endfor -%}
+  </ul>
+{%- else -%}
+  <p>Nenhum post ainda. Em breve!</p>
+{%- endif -%}
