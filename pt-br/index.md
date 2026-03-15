@@ -15,7 +15,7 @@ Este é meu cantinho da web—um espaço onde faço uma pausa para refletir, exp
 
 Espere reflexões sobre arquitetura de sistemas, IA, filosofia, e desvios ocasionais pela história e antropologia. Se você está aqui por insights, inspiração, ou apenas uma boa leitura com seu café da manhã, fico feliz que passou por aqui.
 
-—[Guilherme Cartier](/pt-br/sobre)
+— [Guilherme Cartier](/pt-br/sobre)
 
 <div class="section-divider"></div>
 

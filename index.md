@@ -14,7 +14,7 @@ This is my small corner of the web—a space where I pause to reflect, explore, 
 
 Expect musings on systems architecture, AI, philosophy, and the occasional detour into history and anthropology. Whether you're here for insights, inspiration, or just a good read with your morning brew, I'm glad you stopped by.
 
-—[Guilherme Cartier](about)
+— [Guilherme Cartier](about)
 
 <div class="section-divider"></div>
 
