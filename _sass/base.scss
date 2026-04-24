@@ -315,6 +315,7 @@ li > ul, li > ol {
   width: 120px;
   height: auto;
   border-radius: 8px;
+  filter: var(--icon-filter, none);
 }
 
 /**

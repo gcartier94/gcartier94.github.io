@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="index-logo-div">
-<img src="assets/images/alt-logo-transparent2.png" class="index-logo" alt="Caffeine Meditations Logo">
+<img src="assets/images/noun-coffee-test.svg" class="index-logo" alt="Caffeine Meditations Logo">
 </div>
 
 # Welcome
