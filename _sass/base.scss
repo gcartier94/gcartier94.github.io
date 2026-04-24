@@ -241,16 +241,6 @@ li > ul, li > ol {
   color: var(--text-color);
 }
 
-/* Site icon in navigation */
-.site-icon {
-  height: 1.2em;
-  width: auto;
-  vertical-align: -0.15em;
-  margin-right: 0.35rem;
-  opacity: 0.85;
-  filter: var(--icon-filter, none);
-}
-
 /* Site title in navigation */
 .menu ul li:first-child a {
   font-family: $serif-font;
