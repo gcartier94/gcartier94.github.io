@@ -151,6 +151,12 @@ footer a:hover {
   color: var(--link-color);
 }
 
+footer .attribution {
+  font-size: 0.75rem;
+  opacity: 0.6;
+  margin-top: 0.5rem;
+}
+
 header {
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -233,6 +239,16 @@ li > ul, li > ol {
 
 .menu ul li a:hover {
   color: var(--text-color);
+}
+
+/* Site icon in navigation */
+.site-icon {
+  height: 1.2em;
+  width: auto;
+  vertical-align: -0.15em;
+  margin-right: 0.35rem;
+  opacity: 0.85;
+  filter: var(--icon-filter, none);
 }
 
 /* Site title in navigation */
